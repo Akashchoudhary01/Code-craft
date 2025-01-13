@@ -2,7 +2,7 @@ import apj from "../Assets/Images/apj.png";
 import billGates from "../Assets/Images/billGates.png";
 import einsteine from "../Assets/Images/einstein.png";
 import nelsonMandela from "../Assets/Images/nelsonMandela.png";
-import steveJobs from "../Assets/Images/stevejobs.png";
+import steveJobs from "../Assets/Images/sj.png";
 
 
 export const celebrities = [
