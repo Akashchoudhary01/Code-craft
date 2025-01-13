@@ -109,7 +109,7 @@ const Layout = ({ children }) => {
                     <Link to="/login">Login</Link>
                   </button>
                   <button className="btn-secondary text-black bg-yellow-400 py-1 px-4 font-semibold rounded-md w-full hover:bg-yellow-500 transition-all ease-in-out duration-300">
-                    <Link to="/register">Signup</Link>
+                    <Link to="/signup">Signup</Link>
                   </button>
                 </div>
               </li>

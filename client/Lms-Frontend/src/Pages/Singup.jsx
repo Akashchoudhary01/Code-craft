@@ -114,7 +114,7 @@ const Signup = () => {
       <div className="flex items-center justify-center h-[100vh]">
         <form
           onSubmit={createNewAccount}
-          className="flex flex-col justify-center gap-3 rounded-lg p-4 text-white w-96 shadow-[0_0_10px_black]"
+          className="flex flex-col justify-center gap-3 rounded-lg p-4 text-black w-96 shadow-[0_0_10px_black]"
         >
           <h1 className="text-center text-2xl font-bold">Registration Page</h1>
 
@@ -150,7 +150,7 @@ const Signup = () => {
               name="fullName"
               id="fullName"
               placeholder="Enter your name"
-              className="bg-transparent px-2 py-1 border"
+              className="bg-transparent px-2 py-1 border border-black"
               value={signupData.fullName}
               onChange={handleUserInput}
             />
@@ -167,7 +167,7 @@ const Signup = () => {
               name="email"
               id="email"
               placeholder="Enter your email"
-              className="bg-transparent px-2 py-1 border"
+              className="bg-transparent px-2 py-1 border border-black"
               value={signupData.email}
               onChange={handleUserInput}
             />
@@ -184,7 +184,7 @@ const Signup = () => {
               name="password"
               id="password"
               placeholder="Enter your password"
-              className="bg-transparent px-2 py-1 border"
+              className="bg-transparent px-2 py-1 border border-black"
               value={signupData.password}
               onChange={handleUserInput}
             />
@@ -192,7 +192,7 @@ const Signup = () => {
 
           {/* registration button */}
           <button
-            className="w-full bg-yellow-600 hover:bg-yellow-500 transition-all ease-in-out duration-300 rounded-sm py-2 font-semibold text-lg cursor-pointer"
+            className="w-full bg-blue-600 hover:bg-blue-500 transition-all ease-in-out duration-300 rounded-sm py-2 font-semibold text-lg cursor-pointer"
             type="submit"
           >
             Create Account
